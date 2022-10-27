@@ -93,7 +93,7 @@ public class VideoGameDbTests extends VideoGameConfig {
 
     @Test
     public void testVideoGameSerializationByJSON() {
-        VideoGame videoGame = new VideoGame("99", "2018-04-04", "My Awesome Game", "Mature", "15", "Shooter");
+         VideoGame videoGame = new VideoGame("99", "2018-04-04", "My Awesome Game", "Mature", "15", "Shooter");
 
         given().
                 body(videoGame).
